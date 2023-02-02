@@ -1,2 +1,2 @@
 # productlandingpage
- A Product Landing Page from freeCodeCamp
+Develop a Product Landing Page from freeCodeCamp
