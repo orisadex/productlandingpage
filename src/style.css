@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+
+}
+
+header {
+    width: 93vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 0px 30px 25px;
+}
+
+#header-img {
+    width: 300px;
+}
+
+#nav-ul {
+    width: 420px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    text-decoration: none;
+}
