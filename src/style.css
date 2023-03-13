@@ -9,21 +9,27 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header {
-    width: 93vw;
+#nav-bar {
+    width: 100vw;
+    height: 50px;
+    position: fixed;
+    top: 0px;
+    padding-top: 10px;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    margin: 25px 0px 30px 25px;
+    background-color: rgb(177, 214, 173);
 }
 
 #header-img {
-    width: 300px;
+    width: 25%;
+    position: relative;
+    right: 10px;
 }
 
 #nav-ul {
-    width: 420px;
+    width: 350px;
     display: flex;
     justify-content: space-between;
 }
@@ -33,12 +39,13 @@ header {
     text-decoration: none;
 }
 
-section {
+#section-form {
     display: block;
-    margin: auto;
+    height: 200px;
+    margin: 90px auto 0px auto
 }
 
-h1 {
+#section-form > h1 {
     display: block;
     text-align: center;
     margin-bottom: 20px;
@@ -53,12 +60,49 @@ h1 {
 }
 
 #email {
-    width: 300px;
+    width: 275px;
     padding: 5px;
     margin-bottom: 20px;
 }
 
 #submit {
-    
     width: 150px;
+    height: 25px;
+    font-size: 1em;
+    font-weight: bolder;
+    background-color: orange;
+    border: 0px;
+}
+
+#featuresgrid {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 125px;
+    height: 150px;
+    color: orange;
+}
+
+#describe {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 800px;
+    height: 125px;
+}
+
+#describe > h2 {
+    margin-bottom: 8px;
+}
+
+i {
+    font-size: 40px;
 }
